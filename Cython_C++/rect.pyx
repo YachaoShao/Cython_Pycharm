@@ -12,6 +12,6 @@ cdef extern from "Triangle.h" namespace "shapes":
 rec_ptr = new Rectangle(1, 2, 3, 4)
 try:
     recArea = rec_ptr.getArea()
-    print recArea
+    print (recArea)
 finally:
     del rec_ptr     # delete heap allocated object
