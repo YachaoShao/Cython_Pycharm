@@ -1,6 +1,6 @@
 # distutils: language = c++
 # distutils: sources = Triangle.cpp
-cdef extern from "Triangle.h" namespace "shapes":
+cdef extern from "Rectangle.h" namespace "shapes":
         cdef cppclass Rectangle:
             Rectangle() except +
             Rectangle(int, int, int, int) except +
