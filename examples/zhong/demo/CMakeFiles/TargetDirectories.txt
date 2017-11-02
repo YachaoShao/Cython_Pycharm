@@ -1,0 +1,3 @@
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/demo/CMakeFiles/rebuild_cache.dir
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/demo/CMakeFiles/edit_cache.dir
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/demo/CMakeFiles/power.dir

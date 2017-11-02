@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="JULIA">
+    <serverData>
+      <paths name="JULIA">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/Cython_Pycharm" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/shaoyc/github/pyarbor" local="$USER_HOME$/gitlab/pyarbor" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

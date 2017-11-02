@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/power.c
+power.h
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/power.h
+
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/power.h
+stdlib.h
+-
+

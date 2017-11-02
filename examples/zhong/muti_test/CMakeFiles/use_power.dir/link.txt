@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/use_power.dir/main.c.o  -o use_power power/libpower.a 

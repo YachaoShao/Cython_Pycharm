@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3ddb935c-4fa9-4edb-98c2-4ea80caba3b7" name="JULIA" url="http://134.94.33.32">
+        <fileTransfer host="134.94.33.32" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/gpfs/homeb/pcp0/pcp0042" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

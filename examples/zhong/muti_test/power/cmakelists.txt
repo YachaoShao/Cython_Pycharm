@@ -1,0 +1,4 @@
+# cmake file for subdirectories
+aux_source_directory(. DIR_LIB_SRCS)
+
+add_library(power ${DIR_LIB_SRCS})
