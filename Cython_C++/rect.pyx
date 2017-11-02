@@ -2,10 +2,12 @@ cdef extern from "Rectangle.h" namespace "shapes":
     cdef cppclass Rectangle:
         Rectangle() except +
         Rectangle(int, int, int, int) except +
-        int x0, y0, x1, y1
+        int x0, y0,
         int getArea()
         void getSize(int* width, int* height)
+        void getPoint(int* point_x, int* point_y)
         void move(int, int)
+
 
 cdef class PyRectangle:
     cdef Rectangle c_rect      # hold a C++ instance which we're wrapping
@@ -17,9 +19,9 @@ cdef class PyRectangle:
         cdef int width, height
         self.c_rect.getSize(&width, &height)
         return width, height
-    def getpoint(self):
+    def get_point(self):
         cdef int point_x, point_y
-        self.c_rect.getpoint(&point_x, &point_y)
+        self.c_rect.getPoint(&point_x, &point_y)
         return point_x, point_y
     def move(self, dx, dy):
         self.c_rect.move(dx, dy)

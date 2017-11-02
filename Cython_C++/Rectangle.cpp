@@ -22,7 +22,7 @@ namespace shapes {
         (*height) = y1 - y0;
     }
 
-    void Rectangle::getpoint(int *point_x, int *point_y) {
+    void Rectangle::getPoint(int *point_x, int *point_y) {
        (*point_x) = x0;
        (*point_y) = y0;
     }

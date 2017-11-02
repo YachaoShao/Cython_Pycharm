@@ -3,12 +3,12 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {
-        "name": "HelloWorld", 
+        "name": "cythonhello", 
         "sources": [
-            "HelloWorld.pyx"
+            "cythonhello.pyx"
         ]
     }, 
-    "module_name": "HelloWorld"
+    "module_name": "cythonhello"
 }
 END: Cython Metadata */
 
@@ -489,8 +489,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__HelloWorld
-#define __PYX_HAVE_API__HelloWorld
+#define __PYX_HAVE__cythonhello
+#define __PYX_HAVE_API__cythonhello
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -691,7 +691,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "HelloWorld.pyx",
+  "cythonhello.pyx",
 };
 
 /*--- Type declarations ---*/
@@ -824,22 +824,22 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'HelloWorld' */
-#define __Pyx_MODULE_NAME "HelloWorld"
-int __pyx_module_is_main_HelloWorld = 0;
+/* Module declarations from 'cythonhello' */
+#define __Pyx_MODULE_NAME "cythonhello"
+int __pyx_module_is_main_cythonhello = 0;
 
-/* Implementation of 'HelloWorld' */
+/* Implementation of 'cythonhello' */
 static const char __pyx_k_end[] = "end";
 static const char __pyx_k_file[] = "file";
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_print[] = "print";
-static const char __pyx_k_Hello_World[] = "Hello World!";
+static const char __pyx_k_hello_World[] = "hello World";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
-static PyObject *__pyx_kp_s_Hello_World;
 static PyObject *__pyx_n_s_cline_in_traceback;
 static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_file;
+static PyObject *__pyx_kp_s_hello_World;
 static PyObject *__pyx_n_s_main;
 static PyObject *__pyx_n_s_print;
 static PyObject *__pyx_n_s_test;
@@ -855,7 +855,7 @@ static struct PyModuleDef __pyx_moduledef = {
   #else
     PyModuleDef_HEAD_INIT,
   #endif
-    "HelloWorld",
+    "cythonhello",
     0, /* m_doc */
     -1, /* m_size */
     __pyx_methods /* m_methods */,
@@ -867,10 +867,10 @@ static struct PyModuleDef __pyx_moduledef = {
 #endif
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
-  {&__pyx_kp_s_Hello_World, __pyx_k_Hello_World, sizeof(__pyx_k_Hello_World), 0, 0, 1, 0},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
   {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
+  {&__pyx_kp_s_hello_World, __pyx_k_hello_World, sizeof(__pyx_k_hello_World), 0, 0, 1, 0},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
@@ -895,11 +895,11 @@ static int __Pyx_InitGlobals(void) {
 }
 
 #if PY_MAJOR_VERSION < 3
-PyMODINIT_FUNC initHelloWorld(void); /*proto*/
-PyMODINIT_FUNC initHelloWorld(void)
+PyMODINIT_FUNC initcythonhello(void); /*proto*/
+PyMODINIT_FUNC initcythonhello(void)
 #else
-PyMODINIT_FUNC PyInit_HelloWorld(void); /*proto*/
-PyMODINIT_FUNC PyInit_HelloWorld(void)
+PyMODINIT_FUNC PyInit_cythonhello(void); /*proto*/
+PyMODINIT_FUNC PyInit_cythonhello(void)
 #endif
 {
   PyObject *__pyx_t_1 = NULL;
@@ -913,7 +913,7 @@ PyMODINIT_FUNC PyInit_HelloWorld(void)
           Py_FatalError("failed to import 'refnanny' module");
   }
   #endif
-  __Pyx_RefNannySetupContext("PyMODINIT_FUNC PyInit_HelloWorld(void)", 0);
+  __Pyx_RefNannySetupContext("PyMODINIT_FUNC PyInit_cythonhello(void)", 0);
   if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_empty_tuple = PyTuple_New(0); if (unlikely(!__pyx_empty_tuple)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (unlikely(!__pyx_empty_bytes)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -942,7 +942,7 @@ PyMODINIT_FUNC PyInit_HelloWorld(void)
   #endif
   /*--- Module creation code ---*/
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("HelloWorld", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("cythonhello", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -960,14 +960,14 @@ PyMODINIT_FUNC PyInit_HelloWorld(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_HelloWorld) {
+  if (__pyx_module_is_main_cythonhello) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "HelloWorld")) {
-      if (unlikely(PyDict_SetItemString(modules, "HelloWorld", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "cythonhello")) {
+      if (unlikely(PyDict_SetItemString(modules, "cythonhello", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -987,10 +987,10 @@ PyMODINIT_FUNC PyInit_HelloWorld(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "HelloWorld.pyx":1
- * print "Hello World!"             # <<<<<<<<<<<<<<
+  /* "cythonhello.pyx":1
+ * print "hello World"             # <<<<<<<<<<<<<<
  */
-  if (__Pyx_PrintOne(0, __pyx_kp_s_Hello_World) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_kp_s_hello_World) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_t_1 = PyDict_New(); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -1003,11 +1003,11 @@ PyMODINIT_FUNC PyInit_HelloWorld(void)
   __Pyx_XDECREF(__pyx_t_1);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init HelloWorld", 0, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init cythonhello", 0, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init HelloWorld");
+    PyErr_SetString(PyExc_ImportError, "init cythonhello");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

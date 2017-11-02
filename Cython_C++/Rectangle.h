@@ -8,7 +8,7 @@ namespace shapes {
 
         int getArea();
         void getSize(int* width, int* height);
-        void getpoint();
-        void move(int dx, int dy)
+        void getPoint(int* point_x, int* point_y);
+        void move(int dx, int dy);
     };
 }
