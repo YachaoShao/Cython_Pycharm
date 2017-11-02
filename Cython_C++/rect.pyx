@@ -19,7 +19,12 @@ cdef class PyRectangle:
         cdef int width, height
         self.c_rect.getSize(&width, &height)
         return width, height
+<<<<<<< HEAD
     def get_point(self):
+=======
+
+    def getPoint(self):
+>>>>>>> bb146ffb85c13881155c771c7089f6f33160ea62
         cdef int point_x, point_y
         self.c_rect.getPoint(&point_x, &point_y)
         return point_x, point_y
