@@ -90,7 +90,6 @@ use_power_EXTERNAL_OBJECTS =
 
 use_power: CMakeFiles/use_power.dir/main.c.o
 use_power: CMakeFiles/use_power.dir/build.make
-use_power: power/libpower.a
 use_power: CMakeFiles/use_power.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable use_power"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/use_power.dir/link.txt --verbose=$(VERBOSE)

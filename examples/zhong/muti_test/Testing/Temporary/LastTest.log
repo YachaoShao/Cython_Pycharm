@@ -1,0 +1,95 @@
+Start testing: Nov 03 12:31 CET
+----------------------------------------------------------
+1/5 Testing: test_run
+1/5 Test: test_run
+Command: "/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/use_power" "2" "3"
+Directory: /Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test
+"test_run" start time: Nov 03 12:31 CET
+Output:
+----------------------------------------------------------
+Now we are using our own Math library.
+2 ˆ 3 is 8
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"test_run" end time: Nov 03 12:31 CET
+"test_run" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: test_usage
+2/5 Test: test_usage
+Command: "/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/use_power"
+Directory: /Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test
+"test_usage" start time: Nov 03 12:31 CET
+Output:
+----------------------------------------------------------
+Usage: /Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/use_power base exponent 
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[Usage: .* base exponent
+]
+"test_usage" end time: Nov 03 12:31 CET
+"test_usage" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: test_5_2
+3/5 Test: test_5_2
+Command: "/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/use_power" "5" "2"
+Directory: /Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test
+"test_5_2" start time: Nov 03 12:31 CET
+Output:
+----------------------------------------------------------
+Now we are using our own Math library.
+5 ˆ 2 is 25
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[is 25
+]
+"test_5_2" end time: Nov 03 12:31 CET
+"test_5_2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: test_2_3
+4/5 Test: test_2_3
+Command: "/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/use_power" "2" "3"
+Directory: /Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test
+"test_2_3" start time: Nov 03 12:31 CET
+Output:
+----------------------------------------------------------
+Now we are using our own Math library.
+2 ˆ 3 is 8
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[is 8
+]
+"test_2_3" end time: Nov 03 12:31 CET
+"test_2_3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: test_3_4
+5/5 Test: test_3_4
+Command: "/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/use_power" "3" "4"
+Directory: /Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test
+"test_3_4" start time: Nov 03 12:31 CET
+Output:
+----------------------------------------------------------
+Now we are using our own Math library.
+3 ˆ 4 is 81
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found.Regex=[is 81
+]
+"test_3_4" end time: Nov 03 12:31 CET
+"test_3_4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 12:31 CET

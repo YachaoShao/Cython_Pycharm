@@ -1,0 +1,4 @@
+/usr/local/bin/use_power
+/usr/local/include/config.h
+/usr/local/bin/libpower.a
+/usr/local/include/power.h

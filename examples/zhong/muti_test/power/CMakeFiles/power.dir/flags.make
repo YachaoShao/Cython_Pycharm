@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power 
 
