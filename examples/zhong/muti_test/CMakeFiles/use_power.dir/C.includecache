@@ -6,13 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/./power/power.h
-stdlib.h
--
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/config.h
 
 /Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/main.c
-./power/power.h
-/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/./power/power.h
 stdio.h
+-
+config.h
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/config.h
+stdlib.h
+-
+power/power.h
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/power.h
+math.h
+-
+
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/power.h
+stdlib.h
 -
 

@@ -1,0 +1,7 @@
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/CMakeFiles/install/local.dir
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/CMakeFiles/rebuild_cache.dir
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/CMakeFiles/edit_cache.dir
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/CMakeFiles/install/strip.dir
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/CMakeFiles/install.dir
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/CMakeFiles/list_install_components.dir
+/Users/shaoyc/Github/Cython_Pycharm/examples/zhong/muti_test/power/CMakeFiles/power.dir
